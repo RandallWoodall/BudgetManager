@@ -1,0 +1,8 @@
+<project default="compile">
+	<target name="compile" description="compiles java files">
+		<javac srcdir="./Budget/src/" destdir="./Budget/bin/" includeantruntime="false"/>
+	</target>
+	<target name="run" depends="compile" description="runs java file">
+		<java classpath="./Budget/bin/" classname="budget/GuiMain" fork = "true"/>
+	</target>	
+</project>

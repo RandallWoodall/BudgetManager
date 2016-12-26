@@ -1,0 +1,12 @@
+expense,food,wing stop,20,ryan
+income,work,paycheck,150,john
+expense,house,electricity,50,juwaria
+expense,groceries,walmart,100,hang
+income,other,side,200,randall
+income,work,lawnmowing,50,r
+expense,house,gas,70,r
+income,work,babysitting,50,r
+expense,food,mcdonalds,7,r
+expense,house,water,50,r
+expense,food,panda express,9,r
+income,work,proctoring,30.12,r
