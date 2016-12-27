@@ -54,29 +54,6 @@ public class GuiMain extends JFrame {
 			}
 		});
 	}
-
-
-//	JLabel welcome = new JLabel("Welcome to a New Frame");
-//	JPanel panel = new JPanel();
-//
-//	newframe() {
-//		super("Welcome");
-//		setSize(300,200);
-//		setLocation(500,280);
-//		panel.setLayout(null);
-//		
-//		welcome.setBounds(70,50,150,60);
-//		
-//		panel.add(welcome);
-//		
-//		getContentPane().add(panel);
-//		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//		setVisible(true);
-//	}
-	
-	
-	
-	
 	
 	/**
 	 * Create window and all elements.
@@ -383,32 +360,6 @@ public class GuiMain extends JFrame {
 			}
 
 		});
-
-
-		JMenu HelpMenu = new JMenu("Help");
-		menuBar.add(HelpMenu);
-
-		JMenuItem ReportIssue = new JMenuItem("Report an Issue");
-		HelpMenu.add(ReportIssue);
-		ReportIssue.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				String emails[] = {"hoss.rw@gmail.com", "osso09@nmsu.edu", "juwaria@nmsu.edu", "maezrw@nmsu.edu", "hangngo@nmsu.edu"};
-				int i = (int) (Math.random() * 6 - 1);
-				JOptionPane.showMessageDialog(null,"Contact one of our developers by email! " + emails[i]);
-
-			}
-
-		});
-
-		JMenuItem HelpCenter = new JMenuItem("Help Center");
-		HelpMenu.add(HelpCenter);
-		HelpCenter.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				new HelpCenterClass();
-			}
-		});
-
-
 	}
 
 	public void ImportCSV(Budget b, JList<Object> list){
